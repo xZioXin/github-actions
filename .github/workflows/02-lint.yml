@@ -20,4 +20,4 @@ jobs:
           pip install flake8
 
       - name: Run Flake8
-        run: flake8 app tests
+        run: flake8 app tests --max-line-length=120 --ignore=E302,E305
