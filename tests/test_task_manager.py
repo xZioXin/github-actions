@@ -1,7 +1,7 @@
 import pytest
 from datetime import date
 
-from app.calculator import TaskManager
+from app.task_manager import TaskManager
 
 
 def test_add_task():
